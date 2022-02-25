@@ -16,7 +16,7 @@ _python -m pip install [nome da biblioteca]_
 1.5 - 
 """
 
-import emoji
+#import emoji
 import math
 
 num = int(input('Digite um número: '))
@@ -24,5 +24,5 @@ raiz = math.sqrt(num)
 print(f'A raiz de {num} é igual a {math.ceil(raiz)}')
 
 
-print(emoji.emojize("Olá, Mundo :sunglasses:", use_aliases=True))
-print(emoji.emojize("Olá, Mundo :earth_americas:", use_aliases=True))
+#print(emoji.emojize("Olá, Mundo :sunglasses:", use_aliases=True))
+#print(emoji.emojize("Olá, Mundo :earth_americas:", use_aliases=True))
