@@ -17,7 +17,3 @@ ordem = shuffle(alunos)
 print(f'A ordem será')
 #Esse print já vem com a lista embaralhada
 print(alunos)
-
-
-
-
