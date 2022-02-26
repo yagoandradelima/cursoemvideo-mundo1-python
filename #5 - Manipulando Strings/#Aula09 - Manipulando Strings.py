@@ -59,6 +59,22 @@ print()
 #Ele trocou Python por Android
 frase.replace('Python', 'Android')
 print(frase)
+print()
+
+#transformando em maiusculo
+print(frase.upper())
+
+print()
+
+#transformando em minusculo
+print(frase.lower())
+print()
+
+#capitalize
+#ele joga toda a frase em minuscula e a primeira letra da frase fica em maiusculo
+print(frase.capitalize())
+print()
 
 
-
+#Cada inicial de palavra em maiuscula
+print(frase.title())
