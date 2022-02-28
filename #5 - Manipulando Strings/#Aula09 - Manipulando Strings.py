@@ -57,6 +57,7 @@ print()
 
 #Reposicionar e trocar
 #Ele trocou Python por Android
+#O replace só gera uma modificação, mas não muda efetivamente. Ele só irá mudar caso eu coloque _var = var.replace_
 frase.replace('Python', 'Android')
 print(frase)
 print()
@@ -104,3 +105,10 @@ print()
 '-'.join(frase)
 print(frase)
 print()
+
+#Para fazer um texto longo dentro do print é bom utilizar as três aspas
+
+#No Python tudo é um objeto e por isso posso usar os _.métodos()_
+
+#É possível combinar métodos com métodos como algo do tipo frase.upper().count('O')
+
