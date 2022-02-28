@@ -78,3 +78,29 @@ print()
 
 #Cada inicial de palavra em maiuscula
 print(frase.title())
+print()
+
+#Removendo espaços inuteis de uma string
+frase1 = "   Aprenda Python  "
+print(frase1)
+print(frase1.strip())
+print()
+
+
+#removendo espaços inuteis do lado direito (os ultimos espaços)
+print(frase1.rstrip())
+
+#removendo espaços inuteis do lado esquerdo
+print(frase1.lstrip())
+print()
+
+#dividindo a string onde houver espaços
+#O split pega as partes separadas e gera uma lista
+print(frase.split())
+print(frase)
+print()
+
+#juntando as partes separadas
+'-'.join(frase)
+print(frase)
+print()
