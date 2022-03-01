@@ -22,6 +22,7 @@ STYLE            TEXT             BACK
                  36 blue         46 blue
                  37 gray         47 gray
 
+O 40 no BACK é o mesmo que none
 """
 
 print('\033[1;0;41mOlá Mundo!\033[m')
