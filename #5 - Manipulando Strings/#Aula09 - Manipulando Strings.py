@@ -42,12 +42,13 @@ print(frase.count('o'))
 print()
 
 #Contagem em um intervalo fatiado
+# o é a letra sendo procurada, 0 é o início e 13 o fim\
 print(frase.count('o',0,13))
 print()
 
 #Encontrando uma cadeia de caractere(ou o que eu colocar no ())
-#Ele retorna o primeiro intervalo onde começou o que eu procuro
-#Se ele não encontrar, ele retorn -1 (não existe)
+#Ele retorna o primeiro número do intervalo onde começou o que eu procuro
+#Se ele não encontrar, ele retorna -1 (não existe)
 print(frase.find('deo'))
 print()
 
@@ -96,8 +97,8 @@ print(frase1.lstrip())
 print()
 
 #dividindo a string onde houver espaços
-#O split pega as partes separadas e gera uma lista
-print(frase.split())
+#O split remove os espãos internos da frase pega as partes separadas e gera uma lista com elas
+print(frase.split()) 
 print(frase)
 print()
 
@@ -110,5 +111,8 @@ print()
 
 #No Python tudo é um objeto e por isso posso usar os _.métodos()_
 
-#É possível combinar métodos com métodos como algo do tipo frase.upper().count('O')
+#É possível combinar métodos com métodos como algo do tipo frase.upper().count('O') ou frase.lower().find('vídeo')
 
+
+#contando a quantidade de caracteres
+print(len(frase))
